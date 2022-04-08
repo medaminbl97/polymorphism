@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/main.cpp
+iostream
+-
+shape.h
+/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/shape.h
+vector
+-
+
+/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/shape.cpp
+shape.h
+/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/shape.h
+
+/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/shape.h
+iostream
+-
+cmath
+-
+

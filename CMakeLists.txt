@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD  14)
 
 
 
-add_executable(polymorphism main.cpp)
+add_executable(polymorphism main.cpp shape.h shape.cpp)

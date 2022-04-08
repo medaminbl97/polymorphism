@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shape.o: shape.cpp.o
+.PHONY : shape.o
+
+# target to build an object file
+shape.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/shape.cpp.o
+.PHONY : shape.cpp.o
+
+shape.i: shape.cpp.i
+.PHONY : shape.i
+
+# target to preprocess a source file
+shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/shape.cpp.i
+.PHONY : shape.cpp.i
+
+shape.s: shape.cpp.s
+.PHONY : shape.s
+
+# target to generate assembly for a file
+shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphism.dir/build.make CMakeFiles/polymorphism.dir/shape.cpp.s
+.PHONY : shape.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... shape.o"
+	@echo "... shape.i"
+	@echo "... shape.s"
 .PHONY : help
 
 

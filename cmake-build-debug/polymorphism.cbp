@@ -81,6 +81,12 @@
 		<Unit filename="/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/main.cpp">
 			<Option target="polymorphism"/>
 		</Unit>
+		<Unit filename="/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/shape.cpp">
+			<Option target="polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/shape.h">
+			<Option target="polymorphism"/>
+		</Unit>
 		<Unit filename="/Users/mohamedaminebellil/Desktop/PProjects/polymorphism/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/polymorphism.dir/main.cpp.o"
+  "CMakeFiles/polymorphism.dir/shape.cpp.o"
   "polymorphism"
   "polymorphism.pdb"
 )
